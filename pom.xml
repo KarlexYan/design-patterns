@@ -17,6 +17,7 @@
         <module>Singleton</module>
         <module>Adapter</module>
         <module>Bridge</module>
+        <module>CompositePattern</module>
     </modules>
 
     <properties>
