@@ -25,12 +25,17 @@ public class CompositePattern {
         print(root);
     }
 
-    static void print(AbstractFile file){
+    // 打印树型结构
+    static void print(AbstractFile file) {
         file.printName();
 
         List<AbstractFile> childrenList = file.getChildren();
-        for (AbstractFile abstractFile : childrenList) {
-            abstractFile.printName();
+
+        // 递归打印组件
+        if (childrenList == null) return;
+        for (AbstractFile children : childrenList) {
+            children.printName();
+            print(children);
         }
     }
 
@@ -45,8 +50,10 @@ abstract class AbstractFile {
 
     // 添加组件
     public abstract boolean Add(AbstractFile file);
+
     // 移除组件
     public abstract boolean Remove(AbstractFile file);
+
     // 遍历文件夹下的子组件集合
     public abstract List<AbstractFile> getChildren();
 }
@@ -86,6 +93,7 @@ class File extends AbstractFile {
     public boolean Add(AbstractFile file) {
         return false;
     }
+
     @Override
     public boolean Remove(AbstractFile file) {
         return false;
