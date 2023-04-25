@@ -1,3 +1,7 @@
+/*
+*   装饰器模式
+*   意图：动态地给一个对象添加一些额外的职责。就增加功能而言，Decorator模式比生成子类更加灵活
+* */
 public class Main {
     public static void main(String[] args) {
         // 创建对象，命名张三
