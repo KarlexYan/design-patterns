@@ -20,6 +20,7 @@
         <module>CompositePattern</module>
         <module>DecoratorPattern</module>
         <module>FacadePattern</module>
+        <module>FlyweightPattern</module>
     </modules>
 
     <properties>
