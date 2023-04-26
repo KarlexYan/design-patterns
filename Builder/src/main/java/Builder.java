@@ -6,6 +6,7 @@ abstract class Builder {
 class Builder1 extends Builder{
     Product product = new Product();
 
+    // 往产品添加ABCD零件
     @Override
     public void BuildPart() {
         product.Add("A");
@@ -23,6 +24,7 @@ class Builder1 extends Builder{
 class Builder2 extends Builder{
     Product product = new Product();
 
+    // 往产品添加AB零件
     @Override
     public void BuildPart() {
         product.Add("A");
