@@ -22,6 +22,7 @@ class Product implements Prototype{
         return price;
     }
 
+    // 对象克隆
     @Override
     public Object Clone() {
         Product product = new Product();

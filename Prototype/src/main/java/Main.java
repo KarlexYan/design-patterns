@@ -6,12 +6,12 @@ public class Main {
     public static void main(String[] args) {
         // 创建产品，赋予id和price
         Product product1 = new Product(2023, 5.28);
-        System.out.println(product1);
-        System.out.println(product1.getId() + " " + product1.getPrice());
+        System.out.println(product1);  // Product@41629346
+        System.out.println(product1.getId() + " " + product1.getPrice());  // 2023 5.28
 
         // 克隆产品
         Product product2 = (Product) product1.Clone();
-        System.out.println(product2);
-        System.out.println(product2.getId() + " " + product2.getPrice());
+        System.out.println(product2);  // Product@6acbcfc0
+        System.out.println(product2.getId() + " " + product2.getPrice());  // 2023 5.28
     }
 }
