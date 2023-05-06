@@ -23,6 +23,7 @@
         <module>FlyweightPattern</module>
         <module>ProxyPattern</module>
         <module>ChainOfResponsibility</module>
+        <module>CommandPattern</module>
     </modules>
 
     <properties>
