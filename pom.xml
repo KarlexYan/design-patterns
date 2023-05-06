@@ -24,6 +24,7 @@
         <module>ProxyPattern</module>
         <module>ChainOfResponsibility</module>
         <module>CommandPattern</module>
+        <module>InterpreterPattern</module>
     </modules>
 
     <properties>
