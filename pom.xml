@@ -25,6 +25,7 @@
         <module>ChainOfResponsibility</module>
         <module>CommandPattern</module>
         <module>InterpreterPattern</module>
+        <module>IteratorPattern</module>
     </modules>
 
     <properties>
