@@ -26,6 +26,7 @@
         <module>CommandPattern</module>
         <module>InterpreterPattern</module>
         <module>IteratorPattern</module>
+        <module>MediatorPattern</module>
     </modules>
 
     <properties>
