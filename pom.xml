@@ -28,6 +28,7 @@
         <module>IteratorPattern</module>
         <module>MediatorPattern</module>
         <module>MementoPattern</module>
+        <module>ObserverPattern</module>
     </modules>
 
     <properties>
