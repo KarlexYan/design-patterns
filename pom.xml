@@ -29,6 +29,7 @@
         <module>MediatorPattern</module>
         <module>MementoPattern</module>
         <module>ObserverPattern</module>
+        <module>StatePattern</module>
     </modules>
 
     <properties>
