@@ -32,6 +32,7 @@
         <module>StatePattern</module>
         <module>StrategyPattern</module>
         <module>TemplateMethodPattern</module>
+        <module>VisitorPattern</module>
     </modules>
 
     <properties>
